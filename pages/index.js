@@ -127,7 +127,7 @@ export default function Home() {
         <div className={classes.toolbar}>
             <AppBar position='static'>
                 <Toolbar>
-                    <Typography variant='h5'>TangoNFT 💃</Typography>
+                    <Typography variant='h5'>Blockedchain using TangoNFT 💃to teach some stuff</Typography>
                     <div className={classes.accountButton}>
                         {address ? (
                             <Chip className={classes.accountChip} color='secondary' label={address}/>
@@ -171,10 +171,10 @@ export default function Home() {
 
                 <Box m={4}>
                     <p><b>What is this?</b></p>
-                    <p>A little side-project by <b><Link href="https://twitter.com/pixelbeastsnft" target="_blank">PixelBeasts</Link></b>. Let us know what you think in our <Link href="https://discord.gg/YSqMfAnqzX">Discord</Link>!</p>
+                    <p>A little side-project which is me copying PixelBeasts by Yohei. Here's the actual owner <b><Link href="https://twitter.com/pixelbeastsnft" target="_blank">PixelBeasts</Link></b>. Let us know what you think in our <Link href="https://discord.gg/YSqMfAnqzX">Discord</Link>!</p>
                     <p>There's a private message board for every NFT collection, only displaying the last 100 messages. You can only read and write in the message boards for NFT collections in which you're an owner.</p>
                     <p><i>Only works in Browser, with Metamask installed.</i></p>
-                    <p>Check out <Link href="https://tangonft.com/draw/" target="_blank">Tango Draw: a drawing board for every NFT collection</Link>!</p>
+                    <p>Check out my page for fun <Link href="http:www.markmcintosh.com" ></Link>!</p>
                     <div className="alert alert-info">If the "submit" Button doesn't work the first time, try again. It's sometimes buggy.</div>
                 </Box>
             </Grid>
